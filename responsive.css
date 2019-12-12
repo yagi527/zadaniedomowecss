@@ -1,0 +1,47 @@
+ @media all and (max-width: 992px) and (min-width: 768px)
+{
+    main {
+        width: 100%;
+    } 
+
+    .center {
+        order: 0;
+        flex-basis: 70%;
+    }
+
+    .asideright {
+        order: 1;
+        flex-basis: 30%;
+    }
+ 
+    .asideleft {
+        order: 2;
+        flex-basis:100%;
+
+    }
+ 
+    
+} 
+
+
+@media all and (max-width: 768px) {
+    main {
+        width: 100%;
+    } 
+     
+   section {
+       flex-direction: column;
+   }
+
+   .center {
+       order: 0;
+   }
+
+   .asideleft {
+       order: 1;
+   }
+
+   .asideright {
+       order: 2;
+   }
+}
